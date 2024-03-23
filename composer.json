@@ -1,0 +1,32 @@
+{
+  "name": "vanchisto/php-code-style",
+  "description": "PHP Code Style Tools",
+  "type": "library",
+  "keywords": [
+    "php",
+    "code-style",
+    "fixer",
+    "phpcs",
+    "standards",
+    "static analysis",
+    "static code analysis"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "vanchisto@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vanchisto\\CodeStyle\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.3",
+    "friendsofphp/php-cs-fixer": "^3.52.1",
+    "squizlabs/php_codesniffer": "^3.9"
+  }
+}
