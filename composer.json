@@ -5,6 +5,7 @@
   "keywords": [
     "php",
     "code-style",
+    "dev",
     "fixer",
     "phpcs",
     "standards",
@@ -23,7 +24,11 @@
       "Vanchisto\\CodeStyle\\": "src/"
     }
   },
+  "config": {
+    "sort-packages": true
+  },
   "minimum-stability": "stable",
+  "prefer-stable": true,
   "require": {
     "php": "^8.3",
     "friendsofphp/php-cs-fixer": "^3.52.1",
