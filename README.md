@@ -1,1 +1,2 @@
-# php-code-style
+PHP Code Style Tools
+====================
