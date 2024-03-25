@@ -26,7 +26,8 @@
   },
   "scripts": {
     "test": [
-      "php-cs-fixer fix"
+      "php-cs-fixer fix",
+      "phpcs"
     ]
   },
   "config": {
