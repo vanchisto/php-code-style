@@ -27,6 +27,7 @@
   "scripts": {
     "test": [
       "php-cs-fixer fix",
+      "phpcbf || true",
       "phpcs"
     ]
   },
