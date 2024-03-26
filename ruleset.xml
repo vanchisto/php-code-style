@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd"
-  name="Vanchisto Standard" namespace="Vanchisto\CodeStyle\Standard">
-
+  name="Vanchisto Standard"
+  namespace="Vanchisto\CodeStyle\Standard">
   <rule ref="PSR12" />
-
 </ruleset>
